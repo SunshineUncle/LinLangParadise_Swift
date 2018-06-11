@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8926309520CE0D010051F389 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926309420CE0D010051F389 /* AppDelegate.swift */; };
+		8926309720CE0D010051F389 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8926309620CE0D010051F389 /* ViewController.swift */; };
+		8926309A20CE0D010051F389 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8926309820CE0D010051F389 /* Main.storyboard */; };
+		8926309C20CE0D020051F389 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8926309B20CE0D020051F389 /* Assets.xcassets */; };
+		8926309F20CE0D020051F389 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8926309D20CE0D020051F389 /* LaunchScreen.storyboard */; };
+		892630AA20CE0D030051F389 /* LinLangParadiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892630A920CE0D030051F389 /* LinLangParadiseTests.swift */; };
+		892630B520CE0D030051F389 /* LinLangParadiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 892630B420CE0D030051F389 /* LinLangParadiseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		892630A620CE0D030051F389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8926308920CE0D010051F389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8926309020CE0D010051F389;
+			remoteInfo = LinLangParadise;
+		};
+		892630B120CE0D030051F389 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8926308920CE0D010051F389 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8926309020CE0D010051F389;
+			remoteInfo = LinLangParadise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8926309120CE0D010051F389 /* LinLangParadise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinLangParadise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8926309420CE0D010051F389 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8926309620CE0D010051F389 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8926309920CE0D010051F389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8926309B20CE0D020051F389 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8926309E20CE0D020051F389 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		892630A020CE0D020051F389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892630A520CE0D030051F389 /* LinLangParadiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinLangParadiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		892630A920CE0D030051F389 /* LinLangParadiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinLangParadiseTests.swift; sourceTree = "<group>"; };
+		892630AB20CE0D030051F389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		892630B020CE0D030051F389 /* LinLangParadiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinLangParadiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		892630B420CE0D030051F389 /* LinLangParadiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinLangParadiseUITests.swift; sourceTree = "<group>"; };
+		892630B620CE0D030051F389 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8926308E20CE0D010051F389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892630A220CE0D030051F389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892630AD20CE0D030051F389 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8926308820CE0D010051F389 = {
+			isa = PBXGroup;
+			children = (
+				8926309320CE0D010051F389 /* LinLangParadise */,
+				892630A820CE0D030051F389 /* LinLangParadiseTests */,
+				892630B320CE0D030051F389 /* LinLangParadiseUITests */,
+				8926309220CE0D010051F389 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8926309220CE0D010051F389 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8926309120CE0D010051F389 /* LinLangParadise.app */,
+				892630A520CE0D030051F389 /* LinLangParadiseTests.xctest */,
+				892630B020CE0D030051F389 /* LinLangParadiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8926309320CE0D010051F389 /* LinLangParadise */ = {
+			isa = PBXGroup;
+			children = (
+				8926309420CE0D010051F389 /* AppDelegate.swift */,
+				8926309620CE0D010051F389 /* ViewController.swift */,
+				8926309820CE0D010051F389 /* Main.storyboard */,
+				8926309B20CE0D020051F389 /* Assets.xcassets */,
+				8926309D20CE0D020051F389 /* LaunchScreen.storyboard */,
+				892630A020CE0D020051F389 /* Info.plist */,
+			);
+			path = LinLangParadise;
+			sourceTree = "<group>";
+		};
+		892630A820CE0D030051F389 /* LinLangParadiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				892630A920CE0D030051F389 /* LinLangParadiseTests.swift */,
+				892630AB20CE0D030051F389 /* Info.plist */,
+			);
+			path = LinLangParadiseTests;
+			sourceTree = "<group>";
+		};
+		892630B320CE0D030051F389 /* LinLangParadiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				892630B420CE0D030051F389 /* LinLangParadiseUITests.swift */,
+				892630B620CE0D030051F389 /* Info.plist */,
+			);
+			path = LinLangParadiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8926309020CE0D010051F389 /* LinLangParadise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892630B920CE0D030051F389 /* Build configuration list for PBXNativeTarget "LinLangParadise" */;
+			buildPhases = (
+				8926308D20CE0D010051F389 /* Sources */,
+				8926308E20CE0D010051F389 /* Frameworks */,
+				8926308F20CE0D010051F389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinLangParadise;
+			productName = LinLangParadise;
+			productReference = 8926309120CE0D010051F389 /* LinLangParadise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		892630A420CE0D030051F389 /* LinLangParadiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892630BC20CE0D030051F389 /* Build configuration list for PBXNativeTarget "LinLangParadiseTests" */;
+			buildPhases = (
+				892630A120CE0D030051F389 /* Sources */,
+				892630A220CE0D030051F389 /* Frameworks */,
+				892630A320CE0D030051F389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				892630A720CE0D030051F389 /* PBXTargetDependency */,
+			);
+			name = LinLangParadiseTests;
+			productName = LinLangParadiseTests;
+			productReference = 892630A520CE0D030051F389 /* LinLangParadiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		892630AF20CE0D030051F389 /* LinLangParadiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 892630BF20CE0D030051F389 /* Build configuration list for PBXNativeTarget "LinLangParadiseUITests" */;
+			buildPhases = (
+				892630AC20CE0D030051F389 /* Sources */,
+				892630AD20CE0D030051F389 /* Frameworks */,
+				892630AE20CE0D030051F389 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				892630B220CE0D030051F389 /* PBXTargetDependency */,
+			);
+			name = LinLangParadiseUITests;
+			productName = LinLangParadiseUITests;
+			productReference = 892630B020CE0D030051F389 /* LinLangParadiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8926308920CE0D010051F389 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = linlang;
+				TargetAttributes = {
+					8926309020CE0D010051F389 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					892630A420CE0D030051F389 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8926309020CE0D010051F389;
+					};
+					892630AF20CE0D030051F389 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 8926309020CE0D010051F389;
+					};
+				};
+			};
+			buildConfigurationList = 8926308C20CE0D010051F389 /* Build configuration list for PBXProject "LinLangParadise" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8926308820CE0D010051F389;
+			productRefGroup = 8926309220CE0D010051F389 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8926309020CE0D010051F389 /* LinLangParadise */,
+				892630A420CE0D030051F389 /* LinLangParadiseTests */,
+				892630AF20CE0D030051F389 /* LinLangParadiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8926308F20CE0D010051F389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8926309F20CE0D020051F389 /* LaunchScreen.storyboard in Resources */,
+				8926309C20CE0D020051F389 /* Assets.xcassets in Resources */,
+				8926309A20CE0D010051F389 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892630A320CE0D030051F389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892630AE20CE0D030051F389 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8926308D20CE0D010051F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8926309720CE0D010051F389 /* ViewController.swift in Sources */,
+				8926309520CE0D010051F389 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892630A120CE0D030051F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892630AA20CE0D030051F389 /* LinLangParadiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		892630AC20CE0D030051F389 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892630B520CE0D030051F389 /* LinLangParadiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		892630A720CE0D030051F389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8926309020CE0D010051F389 /* LinLangParadise */;
+			targetProxy = 892630A620CE0D030051F389 /* PBXContainerItemProxy */;
+		};
+		892630B220CE0D030051F389 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8926309020CE0D010051F389 /* LinLangParadise */;
+			targetProxy = 892630B120CE0D030051F389 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8926309820CE0D010051F389 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8926309920CE0D010051F389 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8926309D20CE0D020051F389 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8926309E20CE0D020051F389 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		892630B720CE0D030051F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		892630B820CE0D030051F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		892630BA20CE0D030051F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LinLangParadise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlang.LinLangParadise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		892630BB20CE0D030051F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LinLangParadise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlang.LinLangParadise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		892630BD20CE0D030051F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LinLangParadiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlang.LinLangParadiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinLangParadise.app/LinLangParadise";
+			};
+			name = Debug;
+		};
+		892630BE20CE0D030051F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LinLangParadiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlang.LinLangParadiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinLangParadise.app/LinLangParadise";
+			};
+			name = Release;
+		};
+		892630C020CE0D030051F389 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LinLangParadiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlang.LinLangParadiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinLangParadise;
+			};
+			name = Debug;
+		};
+		892630C120CE0D030051F389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LinLangParadiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.linlang.LinLangParadiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LinLangParadise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8926308C20CE0D010051F389 /* Build configuration list for PBXProject "LinLangParadise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892630B720CE0D030051F389 /* Debug */,
+				892630B820CE0D030051F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892630B920CE0D030051F389 /* Build configuration list for PBXNativeTarget "LinLangParadise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892630BA20CE0D030051F389 /* Debug */,
+				892630BB20CE0D030051F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892630BC20CE0D030051F389 /* Build configuration list for PBXNativeTarget "LinLangParadiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892630BD20CE0D030051F389 /* Debug */,
+				892630BE20CE0D030051F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		892630BF20CE0D030051F389 /* Build configuration list for PBXNativeTarget "LinLangParadiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				892630C020CE0D030051F389 /* Debug */,
+				892630C120CE0D030051F389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8926308920CE0D010051F389 /* Project object */;
+}
